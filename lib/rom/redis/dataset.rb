@@ -1,6 +1,7 @@
 module ROM
   module Redis
     class Dataset
+      include Enumerable
       attr_reader :connection, :commands
 
       def initialize(connection, commands = [])
