@@ -18,11 +18,11 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'redis', '~> 3.0'
-  spec.add_runtime_dependency 'redis-namespace', '~> 1.5.2'
-  spec.add_runtime_dependency 'rom', '~> 1.0.0'
+  spec.add_runtime_dependency 'redis'
+  spec.add_runtime_dependency 'redis-namespace'
+  spec.add_runtime_dependency 'rom'
   spec.add_runtime_dependency 'inflecto'
 
   spec.add_development_dependency 'bundler'
-  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'rake'
 end

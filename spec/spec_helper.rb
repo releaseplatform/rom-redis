@@ -3,9 +3,6 @@
 require 'bundler'
 Bundler.setup
 
-require 'codeclimate-test-reporter'
-CodeClimate::TestReporter.start
-
 require 'rom-redis'
 
 root = Pathname(__FILE__).dirname
