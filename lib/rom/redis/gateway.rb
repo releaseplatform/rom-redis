@@ -4,6 +4,8 @@ require 'redis/namespace'
 require 'rom/gateway'
 require 'rom/redis/dataset'
 
+require 'byebug'
+
 module ROM
   module Redis
     class Gateway < ROM::Gateway

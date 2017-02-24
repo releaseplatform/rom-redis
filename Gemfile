@@ -5,6 +5,7 @@ gemspec
 group :test do
   gem 'rom'
   gem 'rspec'
+  gem 'byebug'
 end
 
 group :tools do
