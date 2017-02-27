@@ -23,7 +23,7 @@ describe ROM::Redis::Relation do
 
   describe '#keys' do
     it 'should return an enumerator' do
-      expect(subject.keys).to be_a(Enumerator)
+      expect(subject.keys).to be_a(Enumerable)
     end
 
     it 'should return all keys' do
